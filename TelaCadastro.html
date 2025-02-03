@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <title>Gestão de Serviços - Lavanderia</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Gestão de Serviços - Lavanderia</h1>
+    </header>
+
+    <div class="services">
+        <ul id="service-list">
+        </ul>
+    </div>
+<!-- Os serviços serão carregados aqui através de JavaScript -->
+    <div class="form-container">
+        <form id="service-form">
+            <input type="hidden" id="service-id" name="service-id">
+
+            <center><label for="service-name">Funcionário:</label>
+            <input type="text" id="funcionario" name="funcionario" required >
+
+            <label for="service-name">Tipo de Produto:</label>
+            <input type="text" id="service-product" name="service-product" required>
+
+            <label for="service-description">Descrição:</label>
+           <textarea></textarea> <id="service-description" name="service-description" required>
+
+            <label for="service-price">Preço:</label>
+            <input type="number" id="service-price" name="service-price" required>
+            
+            <label for="service-name">Tamanho:</label>
+            <input type="text" id="service-width" name="service-width" required>
+
+            <label for="service-name">Tecido:</label>
+            <input type="text" id="service-tecido" name="service-tecido" required></center>
+
+            <center><button type="submit">Cadastrar</button>
+            <button type="button" id="cancel-button">Cancelar</button></center>
+        </form>
+    </div>
+
+    <div class="buttons">
+        <center><button id="new-service-button">Novo Serviço</button>
+        <button id="edit-service-button">Editar Serviço Selecionado</button>
+        <button id="delete-service-button">Excluir Serviço Selecionado</button></center>
+    </div>
+<a href="TelaCategorias.html"><p>Voltar</p></a>
+    <script src="script.js"></script>
+</body>
+</html>
