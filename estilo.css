@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(248, 246, 93);
+    }
+    
+    h3{
+    font-family: Gabriola;
+    background-color:red;
+    }
+    img{max-width: 10cm;
+        max-height: 10cm;
+
+
+    }
+    
+    p{
+    line-height: 25px;
+    }
